@@ -321,7 +321,7 @@ body {
   gap: 50px;
 }
 
-.nav-icon {
+.nav-icon .contact-link {
   margin-right: 10px;
   fill: var(--secondary-color);
 }
