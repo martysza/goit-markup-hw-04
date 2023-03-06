@@ -80,6 +80,20 @@ body {
   margin-top: 94px;
 }
 
+/*Nasi Klienci -> Agencja*/
+
+.svg-logo{
+ color: #AFB1B8;
+}
+
+.client-list{
+  display: flex;
+  gap: 30px;
+  padding-bottom: 94px;
+  margin: 0px;
+  justify-content: space-between;
+}
+
 /*Nasz zespół -> Agencja*/
 
 .our-team-container {
@@ -152,7 +166,7 @@ body {
   display: flex;
   margin: 0 auto;
   gap: 30px;
-  padding-top: 94px;
+  padding-top: 30px;
   justify-content: space-between;
 }
 
@@ -176,12 +190,36 @@ body {
   color: var(--main-color);
 }
 
+/*Sekcja-Nasze-Atuty -> Agencja*/
+
+.our-pros-ul
+{display: flex;
+  margin: 0 auto;
+  gap: 30px;
+  padding-top: 94px;
+  justify-content: space-between;
+}
+
+.our-pros-li{
+  height: 120px;
+  width: 270px;
+  background-color: #F5F4FA;
+}
+
+
 /*Sekcja-Efektywne-rozwiązania -> Agencja*/
 
 .main-text-section {
+  background-image: linear-gradient(
+    90deg,
+    rgba(47,48,58,0.4) 0%,
+    rgba(47,48,58,0.4) 0%),
+    url(../images/office.jpg);
+    max-width: 1600px;
+    background-repeat: no-repeat;
+
   height: 600px;
   text-align: center;
-  background: #2f303a;
 }
 
 .main-text {
@@ -278,13 +316,19 @@ body {
   gap: 50px;
 }
 
-.navbar .contact-link {
+.nav-icon {
+  margin-right: 10px;
+  fill: var(--secondary-color);
+}
+
+.contact-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143em;
   letter-spacing: 0.02em;
   cursor: pointer;
   color: var(--secondary-color);
+  fill: var(--secondary-color);
 }
 .navbar .contact-link:hover,
 .navbar .contact-link:focus {
