@@ -82,11 +82,11 @@ body {
 
 /*Nasi Klienci -> Agencja*/
 
-.svg-logo{
- color: #AFB1B8;
+.svg-logo {
+  color: #afb1b8;
 }
 
-.client-list{
+.client-list {
   display: flex;
   gap: 30px;
   padding-bottom: 94px;
@@ -192,31 +192,36 @@ body {
 
 /*Sekcja-Nasze-Atuty -> Agencja*/
 
-.our-pros-ul
-{display: flex;
+.our-pros-ul {
+  display: flex;
   margin: 0 auto;
   gap: 30px;
   padding-top: 94px;
   justify-content: space-between;
 }
 
-.our-pros-li{
+.our-pros-li {
   height: 120px;
   width: 270px;
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
+.pros-svg {
+  margin-top: 25px;
+  margin-left: 100px;
+}
 
 /*Sekcja-Efektywne-rozwiązania -> Agencja*/
 
 .main-text-section {
   background-image: linear-gradient(
-    90deg,
-    rgba(47,48,58,0.4) 0%,
-    rgba(47,48,58,0.4) 0%),
+      90deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 0%
+    ),
     url(../images/office.jpg);
-    max-width: 1600px;
-    background-repeat: no-repeat;
+  max-width: 1600px;
+  background-repeat: no-repeat;
 
   height: 600px;
   text-align: center;
