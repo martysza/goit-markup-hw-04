@@ -86,6 +86,10 @@ body {
   fill: #AFB1B8;
 }
 
+.client-svg:hover {
+  fill: #2196F3;
+}
+
 .client-list {
   display: flex;
   gap: 30px;
