@@ -82,8 +82,8 @@ body {
 
 /*Nasi Klienci -> Agencja*/
 
-.svg-logo {
-  color: #afb1b8;
+.client-svg {
+  fill: #AFB1B8;
 }
 
 .client-list {
