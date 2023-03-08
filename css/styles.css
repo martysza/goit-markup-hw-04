@@ -320,8 +320,8 @@ body {
   top: 32px;
 }
 
-.navbar .navigation a:hover,
-.navbar .navigation a:focus {
+.navbar .navigation .contact-link a:hover,
+.navbar .navigation .contact-link a:focus {
   color: var(--brand-color);
 }
 
