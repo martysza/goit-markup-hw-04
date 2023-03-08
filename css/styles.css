@@ -86,6 +86,8 @@ body {
   fill: #AFB1B8;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  cursor: pointer;
+
 }
 
 .client-svg:hover {
