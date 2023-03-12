@@ -385,6 +385,10 @@ border-radius: 0px 0px 4px 4px;
 
 /*FOOTER*/
 
+.footer-socialitem:hover,
+.footer-socialitem:focus{
+  background-color: var(--brand-color);}
+
 .footer-social-icon{
   fill: #ffffff;
 }
