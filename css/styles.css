@@ -157,10 +157,16 @@ body {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .social-icon {
   fill: #AFB1B8;
+}
+
+.social-item:hover{
+  fill: #FFFFFF;
+  background-color: var(--brand-color);
 }
 
 /*Czym się zajmujemy + zdjęcia -> Agencja*/
