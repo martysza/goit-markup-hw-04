@@ -167,10 +167,9 @@ body {
   fill: #AFB1B8;
 }
 
-.social-item:hover{
+.social-item:hover,
+.social-item:focus{
   background-color: var(--brand-color);
-}
-.social-icon:hover{
   fill: #FFFFFF;
 }
 
