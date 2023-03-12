@@ -367,11 +367,13 @@ body {
   line-height: 1.143em;
   letter-spacing: 0.02em;
   cursor: pointer;
+  display: flex;
+    align-items: center;
   color: var(--secondary-color);
   fill: var(--secondary-color);
 }
-.navbar .contact-link:hover,
-.navbar .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--brand-color);
 }
 
