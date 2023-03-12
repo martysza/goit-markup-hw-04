@@ -168,8 +168,10 @@ body {
 }
 
 .social-item:hover{
-  fill: #FFFFFF;
   background-color: var(--brand-color);
+}
+.social-icon:hover{
+  fill: #FFFFFF;
 }
 
 /*Czym się zajmujemy + zdjęcia -> Agencja*/
