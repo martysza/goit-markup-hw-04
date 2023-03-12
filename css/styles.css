@@ -116,6 +116,7 @@ body {
   letter-spacing: 0.03em;
   margin-bottom: 0px;
   color: var(--main-color);
+  margin-top: 30px;
 }
 
 .name-desctiption {
@@ -124,7 +125,7 @@ body {
   line-height: 1.188em;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
-  margin-top: 0;
+  margin-top: 10px;
 }
 
 .our-team-ul {
@@ -142,11 +143,17 @@ body {
   text-align: center;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
 }
 .img-team {
   display: block;
 }
+
+.social{
+  display: flex;
+  gap: 10px;
+  margin-left: 32px;
+}
+
 
 /*Czym się zajmujemy + zdjęcia -> Agencja*/
 
