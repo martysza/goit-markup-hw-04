@@ -159,6 +159,10 @@ body {
   border-radius: 50%;
 }
 
+.social-icon {
+  fill: #AFB1B8;
+}
+
 /*Czym się zajmujemy + zdjęcia -> Agencja*/
 
 .second-title {
