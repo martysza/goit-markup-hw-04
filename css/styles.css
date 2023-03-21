@@ -357,10 +357,6 @@ cursor: pointer;
   top: 32px;
 }
 
-.navbar .navigation .contact-link a:hover,
-.navbar .navigation .contact-link a:focus {
-  color: var(--brand-color);
-}
 
 .navigation-contact {
   display: flex;
@@ -383,9 +379,10 @@ cursor: pointer;
   color: var(--secondary-color);
   fill: var(--secondary-color);
 }
-.contact-link:hover,
-.contact-link:focus {
+.contact-link a:hover,
+.contact-link a:focus {
   color: var(--brand-color);
+  fill: var(--brand-color);
 }
 
 /*FOOTER*/
